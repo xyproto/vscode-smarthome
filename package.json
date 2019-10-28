@@ -1,9 +1,9 @@
 {
-  "name": "extended-cursormove",
-  "displayName": "Extended Cursor Movements",
-  "description": "Extended cursor movement commands",
-  "version": "0.0.2",
-  "publisher": "BillStewart",
+  "name": "smart-home",
+  "displayName": "Smart Home",
+  "description": "One keypress to toggle between start of line and start of text",
+  "version": "0.0.1",
+  "publisher": "AlexanderRodseth",
   "engines": {
     "vscode": "^1.5.x"
   },
@@ -12,59 +12,14 @@
   ],
   "license": "MIT",
   "activationEvents": [
-    "onCommand:extension.extendedCursorMove.cursorHome",
-    "onCommand:extension.extendedCursorMove.cursorHomeSelect",
-    "onCommand:extension.extendedCursorMove.cursorEnd",
-    "onCommand:extension.extendedCursorMove.cursorEndSelect",
-    "onCommand:extension.extendedCursorMove.cursorTopLeft",
-    "onCommand:extension.extendedCursorMove.cursorTopLeftSelect",
-    "onCommand:extension.extendedCursorMove.cursorBottomRight",
-    "onCommand:extension.extendedCursorMove.cursorBottomRightSelect",
-    "onCommand:extension.extendedCursorMove.centerCursorInView",
-    "onCommand:extension.extendedCursorMove.moveCursorToView"
+    "onCommand:extension.smartHome.toggleCursorHome"
   ],
   "main": "./extension",
   "contributes": {
     "commands": [
       {
-        "command": "extension.extendedCursorMove.cursorHome",
-        "title": "Move cursor to beginning of current line, ignoring whitespace"
-      },
-      {
-        "command": "extension.extendedCursorMove.cursorHomeSelect",
-        "title": "Move cursor to beginning of current line, ignoring whitespace, and select"
-      },
-      {
-        "command": "extension.extendedCursorMove.cursorEnd",
-        "title": "Move cursor to end of current line after all whitespace"
-      },
-      {
-        "command": "extension.extendedCursorMove.cursorEndSelect",
-        "title": "Move cursor to end of current line after all whitespace and select"
-      },
-      {
-        "command": "extension.extendedCursorMove.cursorTopLeft",
-        "title": "Move cursor to top left corner of current view"
-      },
-      {
-        "command": "extension.extendedCursorMove.cursorTopLeftSelect",
-        "title": "Move cursor to top left corner of current view and select"
-      },
-      {
-        "command": "extension.extendedCursorMove.cursorBottomRight",
-        "title": "Move cursor to bottom right corner of current view"
-      },
-      {
-        "command": "extension.extendedCursorMove.cursorBottomRightSelect",
-        "title": "Move cursor to bottom right corner of current view and select"
-      },
-      {
-        "command": "extension.extendedCursorMove.centerCursorInView",
-        "title": "Move cursor to center of current view"
-      },
-      {
-        "command": "extension.extendedCursorMove.moveCursorToView",
-        "title": "Move cursor to current view"
+        "command": "extension.smartHome.toggleCursorHome",
+        "title": "Toggle between moving the cursor to the start of the line and the start of the text"
       }
     ]
   },
@@ -72,11 +27,11 @@
     "vscode": "^0.11.13"
   },
   "bugs": {
-    "url": "https://github.com/Bill-Stewart/vscode-extended-cursormove/issues/"
+    "url": "https://github.com/xyproto/vscode-smart-home/issues/"
   },
-  "homepage": "https://github.com/Bill-Stewart/vscode-extended-cursormove/blob/master/README.md",
+  "homepage": "https://github.com/xyproto/vscode-smart-home/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bill-Stewart/vscode-extended-cursormove/"
+    "url": "https://github.com/xyproto/vscode-smart-home/"
   }
 }
