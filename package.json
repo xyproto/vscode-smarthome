@@ -1,9 +1,9 @@
 {
   "name": "smart-home",
   "displayName": "Smart Home",
-  "description": "One keypress to toggle between start of line and start of text",
+  "description": "Toggle between the beginning of the line and the beginning of the text",
   "version": "0.0.1",
-  "publisher": "AlexanderRodseth",
+  "publisher": "Alexander F. Rødseth",
   "engines": {
     "vscode": "^1.5.x"
   },
@@ -19,7 +19,7 @@
     "commands": [
       {
         "command": "extension.smartHome.toggleCursorHome",
-        "title": "Toggle between moving the cursor to the start of the line and the start of the text"
+        "title": "Toggle between the beginning of the line and the beginning of the text"
       }
     ]
   },
@@ -27,11 +27,11 @@
     "vscode": "^0.11.13"
   },
   "bugs": {
-    "url": "https://github.com/xyproto/vscode-smart-home/issues/"
+    "url": "https://github.com/xyproto/vscode-smarthome/issues/"
   },
-  "homepage": "https://github.com/xyproto/vscode-smart-home/blob/master/README.md",
+  "homepage": "https://github.com/xyproto/vscode-smarthome/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xyproto/vscode-smart-home/"
+    "url": "https://github.com/xyproto/vscode-smarthome/"
   }
 }
